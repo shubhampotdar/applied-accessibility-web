@@ -28,3 +28,8 @@
 	 The __header__ tag is used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
 	__header__ tag shares the embedded landmark feature like __main__, allowing assistive technologies to quickly navigate 		to that content.
+	
+	#### Make Screen Reader Navigation Easier with the nav Landmark: </br>
+	The __nav__ element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag 	is meant to wrap around the main navigation links in your page.
+
+	If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a nav tag as well. 		Using a footer is sufficient.
