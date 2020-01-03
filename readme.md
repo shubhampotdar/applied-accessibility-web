@@ -53,4 +53,22 @@
 
 	Note: Multimedia content usually has both visual and auditory components. It needs synchronized captions and a 		transcript so users with visual and/or auditory impairments can access it. Generally, a web developer is not 		responsible for creating the captions or transcript, but needs to know to include them.
 	
+	### Improved chart accessibility with the figure element </br>
+	
+	HTML5 introduced the figure element, along with the related figcaption. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. This gives a two-fold accessibility boost by both semantically grouping related content, and providing a text alternative that explains the figure.
+
+	For data visualizations like charts, the caption can be used to briefly note the trends or conclusions for users with visual impairments. Another challenge covers how to move a table version of the chart's data off-screen (using CSS) for screen reader users.
+
+	Here's an example - note that the figcaption goes inside the figure tags and can be combined with other elements:
+	
+	```html
+	<figure>
+  		<img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
+ 		 <br>
+ 	 	<figcaption>
+  	  	Master Camper Cat demonstrates proper form of a roundhouse kick.
+  		</figcaption>
+	</figure>
+	```
+	
 	
