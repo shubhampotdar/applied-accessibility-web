@@ -14,22 +14,22 @@
 
 	By default, a browser renders these elements similarly to __div__. However, using them where 			appropriate gives additional meaning in your markup. The tag name alone can indicate the type of 			information it contains, which adds semantic meaning to that content. Assistive technologies can access this 	information to provide better page summary or navigation options to their users.
 
-	#### Jump straight to content using __main__ element: </br>
+	### Jump straight to content using __main__ element: </br>
 	The __main__ element is used to wrap the main content, and there should be only one per page. It's meant to 		surround the information that's related to the central topic of your page. It's not meant to include items that 		repeat across pages, like navigation links or banners.
 	The __main__ tag also has an embedded landmark feature that assistive technology can use to quickly navigate 	to the main content. If you've ever seen a "Jump to Main Content" link at the top of a page, using a main tag 	automatically gives assistive devices that functionality.
 
-	#### Wrap content in the __article__ element: </br>
+	### Wrap content in the __article__ element: </br>
 	__article__ is a sectioning element, and is used to wrap independent, self-contained content. The tag works well 		with blog entries, forum posts, or news articles.
 	Determining whether content can stand alone is usually a judgement call, but there are a couple simple tests 	you can use. Ask yourself if you removed all surrounding context, would that content still make sense? 			Similarly for text, would the content hold up if it were in an RSS feed?
 	
 	The __section__ element is also new with HTML5, and has a slightly different semantic meaning than __article__. An article is for standalone content, and a section is for grouping thematically related content. They can be used within each other, as needed. For example, if a book is the article, then each chapter is a section. When there's no relationship between groups of content, then use a __div__.
 	
-	#### Make Screen Reader Navigation Easier with the header Landmark: </br>
+	### Make Screen Reader Navigation Easier with the header Landmark: </br>
 	 The __header__ tag is used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
 	__header__ tag shares the embedded landmark feature like __main__, allowing assistive technologies to quickly navigate 		to that content.
 	
-	#### Make Screen Reader Navigation Easier with the nav Landmark: </br>
+	### Make Screen Reader Navigation Easier with the nav Landmark: </br>
 	The __nav__ element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag 	is meant to wrap around the main navigation links in your page.
 
-	If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a nav tag as well. 		Using a footer is sufficient.
+	If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a nav tag as well. 		Using a __footer__ is sufficient.
