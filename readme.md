@@ -71,4 +71,7 @@
 	</figure>
 	```
 	
+	### Improve form field accessibility with the label element </br>
+	The __label__ tag wraps the text for a specific form control item, usually the name or label for a choice. This ties meaning to the item and makes the form more readable. The for attribute on a label tag explicitly associates that label with the form control and is used by screen readers.
+	
 	
