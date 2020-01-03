@@ -6,7 +6,7 @@
 </br></br>
 * Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
-	Semantic meaning means that the tag you use around content indicates the type of information it contains.
+	__Semantic meaning__ means that the tag you use around content indicates the type of information it contains.
 
 	Each page should always have one (and only one) h1 element, which is the main subject of your content. This 	and the other headings are used in part by search engines to understand the topic of the page.
 </br></br>
