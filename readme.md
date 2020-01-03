@@ -27,4 +27,4 @@
 	#### Make Screen Reader Navigation Easier with the header Landmark: </br>
 	 The __header__ tag is used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
-__header__ tag shares the embedded landmark feature like __main__, allowing assistive technologies to quickly navigate to that content.
+	__header__ tag shares the embedded landmark feature like __main__, allowing assistive technologies to quickly navigate 		to that content.
