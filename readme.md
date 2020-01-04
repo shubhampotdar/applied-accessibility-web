@@ -96,4 +96,12 @@
 	</form>
 	```
 	
+	### Standardize time with the HTML5 datetime attribute
+	HTML5 also introduced the __time__ element along with a __datetime__ attribute to standardize times. This is an inline element that can wrap a date or time on a page. A valid format of that date is held by the datetime attribute. This is the value accessed by assistive devices. It helps avoid confusion by stating a standardized version of a time, even if it's written in an informal or colloquial manner in the text.
+
+	Here's an example:
+	```html
+	<p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last 	Wednesday</time>, which ended in a draw.</p>
+	```
+	
 	
