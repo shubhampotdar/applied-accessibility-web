@@ -101,7 +101,8 @@
 
 	Here's an example:
 	```html
-	<p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last 	Wednesday</time>, which ended in a draw.</p>
+	<p>Master Camper Cat officiated the cage match between Goro and S
+	corpion <time datetime="2013-02-13">last 	Wednesday</time>, which ended in a draw.</p>
 	```
 	
 	
