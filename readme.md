@@ -142,4 +142,15 @@
 
 	Screen readers do this by reading the link text, or what's between the anchor (a) tags. Having a list of "click here" or "read more" links isn't helpful. Instead, you should use brief but descriptive text within the a tags to provide more meaning for these users.
 	
+* HTML offers the __accesskey__ attribute to specify a shortcut key to activate or bring focus to an element. This can make navigation more efficient for keyboard-only users.
+
+	HTML5 allows this attribute to be used on any element, but it's particularly useful when it's used with interactive ones. This includes links, buttons, and form controls.
+
+	Here's an example:
+	```html
+	<button accesskey="b">Important Button</button>
+	```
+
+
+	
 	
