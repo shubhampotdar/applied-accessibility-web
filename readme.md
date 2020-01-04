@@ -105,7 +105,7 @@
 	corpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>
 	```
 	
-	### Make elements only visible to a screen reader using custom css
+	*### Make elements only visible to a screen reader using custom css
 	CSS's magic can also improve accessibility on your page when you want to visually hide content meant only for screen readers. This happens when information is in a visual format (like a chart), but screen reader users need an alternative presentation (like a table) to access the data. CSS is used to position the screen reader-only elements off the visual area of the browser window.
 
 	Here's an example of the CSS rules that accomplish this:
