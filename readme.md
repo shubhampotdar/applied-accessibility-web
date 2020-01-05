@@ -1,5 +1,20 @@
 # Applied Accessibility for web design:
 
+__"Accessibility"__ generally means having web content and a user interface that can be understood, navigated, and interacted with by a broad audience. This includes people with visual, auditory, mobility, or cognitive disabilities. Websites should be open and accessible to everyone, regardless of a user's abilities or resources. Some users rely on assistive technology such as a screen reader or voice recognition software. Other users may be able to navigate through a site only using a keyboard. Keeping the needs of various users in mind when developing your project can go a long way towards creating an open web. Here are three general ideas to be kept in mind to add accessibility to your pages:
+
+* Have well-organized code that uses __appropriate markup__
+
+* Ensure __text alternatives__ exist for non-text and visual content
+
+* Create an easily-navigated page that's __keyboard-friendly__
+
+Having accessible web content is an ongoing challenge. A great resource for your projects going forward is the [W3 Consortium's Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). They set the international standard for accessibility and provide a number of criteria you can use to check your work.
+
+
+### Below are a few guidelines that can be followed to add accessibility to web design:
+
+
+
 * People with visual impairments rely on screen readers to convert web content to an audio interface. They won't get information if it's only presented visually. For images, screen readers can access the __alt__ attribute and read its contents to deliver key information.Good __alt__ text provides the reader a brief description of the image. You should always include an __alt__ attribute on your image. Per HTML5 specification, this is now considered mandatory.
 
 	In situations when an image is already explained with text content (like captions), or does not add meaning to 	a page, the __img__ still needs an __alt__ attribute, but it can be set to an empty string.
